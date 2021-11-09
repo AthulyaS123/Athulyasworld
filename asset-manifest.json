@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Athulyasworld/static/css/main.8d817778.chunk.css",
+    "main.js": "/Athulyasworld/static/js/main.ba423c52.chunk.js",
+    "main.js.map": "/Athulyasworld/static/js/main.ba423c52.chunk.js.map",
+    "runtime-main.js": "/Athulyasworld/static/js/runtime-main.379130d5.js",
+    "runtime-main.js.map": "/Athulyasworld/static/js/runtime-main.379130d5.js.map",
+    "static/js/2.de240274.chunk.js": "/Athulyasworld/static/js/2.de240274.chunk.js",
+    "static/js/2.de240274.chunk.js.map": "/Athulyasworld/static/js/2.de240274.chunk.js.map",
+    "index.html": "/Athulyasworld/index.html",
+    "static/css/main.8d817778.chunk.css.map": "/Athulyasworld/static/css/main.8d817778.chunk.css.map",
+    "static/js/2.de240274.chunk.js.LICENSE.txt": "/Athulyasworld/static/js/2.de240274.chunk.js.LICENSE.txt",
+    "static/media/bgmain.jpg": "/Athulyasworld/static/media/bgmain.76ab9a71.jpg",
+    "static/media/womaninstem.jpg": "/Athulyasworld/static/media/womaninstem.6cfc6208.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.379130d5.js",
+    "static/js/2.de240274.chunk.js",
+    "static/css/main.8d817778.chunk.css",
+    "static/js/main.ba423c52.chunk.js"
+  ]
+}
