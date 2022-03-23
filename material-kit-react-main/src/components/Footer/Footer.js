@@ -44,7 +44,7 @@ export default function Footer(props) {
                 className={classes.block}
                 target="_blank"
               >
-                Athulyasworld@yahoo.com
+                Athulya.Saravana@gmail.com
               </a>
             </ListItem>
 
@@ -59,9 +59,7 @@ export default function Footer(props) {
           >
             Athulya Saravanakumar
           </a>{" "}
-          - innovating tomorrow
-          <Favorite className={classes.icon} />
-        </div>
+          - Innovate, Lead, Inspire  <Favorite style={{fill: "darkblue"}} className={classes.icon} />        </div>
       </div>
     </footer>
   );

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
@@ -30,7 +31,7 @@ export default function CardHeader(props) {
 
 CardHeader.propTypes = {
   className: PropTypes.string,
-  color: PropTypes.oneOf(["warning", "success", "danger", "info", "primary"]),
+  color: PropTypes.oneOf(["warning", "rose", "success", "danger", "info", "primary"]),
   plain: PropTypes.bool,
   children: PropTypes.node,
 };

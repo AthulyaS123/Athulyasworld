@@ -30,8 +30,8 @@ export default function HeaderLinks(props) {
   return (
 
   <List className={classes.list}>
-      <ListItem className={classes.listItem}>
-        <CustomDropdown
+      {/* <ListItem className={classes.listItem}> */}
+        {/* <CustomDropdown
           noLiPadding
           buttonText="About Me"
           buttonProps={{
@@ -55,7 +55,7 @@ export default function HeaderLinks(props) {
             
           ]}
         />
-      </ListItem>
+      </ListItem> */}
 
 {/* <ListItem className={classes.listItem}>
         <Tooltip
@@ -74,10 +74,27 @@ export default function HeaderLinks(props) {
         </Tooltip>
   </ListItem> */}
 
+<ListItem className={classes.listItem}>
+        <Tooltip
+          id="athulya"
+          title="Check Out My Work"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="#awards"
+            className={classes.navLink}
+          >
+          <Favorite className={classes.icons} />  About Me        
+          </Button>
+        </Tooltip>
+      </ListItem>
+
       <ListItem className={classes.listItem}>
         <Tooltip
           id="email"
-          title="Email Me :)"
+          title="Email Me"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
@@ -112,7 +129,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id="linkden"
-          title="Check out my linkden"
+          title="Check out my Linkden"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
