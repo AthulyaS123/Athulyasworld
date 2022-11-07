@@ -53,19 +53,19 @@ export default function Components(props) {
         <div className={classes.brand}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={8}>
-              <h3 className="animate__animated animate__lightSpeedInLeft">
+              <h3 className="animate__animated animate__lightSpeedInLeft animate__slower">
                 Innovate, Lead, Inspire <Favorite style={{fill: "darkblue"}} className={classes.icon} />
                  </h3 >
                  </GridItem>
                  <GridItem xs={12} sm={12} md={8}>
-                <h4 className="animate__animated animate__lightSpeedInRight">
+                <h4 className="animate__animated animate__lightSpeedInRight animate__slower">
                   I am a senior at the Math and Science Academy in Dulles High School. I am a passionate computer scientist, researching in the feild of 
                   Artifical Intelligence, Autonomous Robotics, and Bioinformatics.
 
                 I have lead many programming teams and showcase compassion,
                 hardwork, leadership. I  spread the knowledge of STEM to others and encourge women to join through outreach to my community.</h4>
                          <Button
-                         className="animate__animated animate__rollIn"
+                         className="animate__animated animate__rollIn animate__slower"
                             color="rose"
                             size="lg"
                             href = {Resume}
