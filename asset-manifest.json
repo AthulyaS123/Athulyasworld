@@ -1,28 +1,37 @@
 {
   "files": {
-    "main.css": "/Athulyasworld/static/css/main.9f280494.chunk.css",
-    "main.js": "/Athulyasworld/static/js/main.8a69110a.chunk.js",
-    "main.js.map": "/Athulyasworld/static/js/main.8a69110a.chunk.js.map",
-    "runtime-main.js": "/Athulyasworld/static/js/runtime-main.2cddc46b.js",
-    "runtime-main.js.map": "/Athulyasworld/static/js/runtime-main.2cddc46b.js.map",
-    "static/js/2.4cef73ab.chunk.js": "/Athulyasworld/static/js/2.4cef73ab.chunk.js",
-    "static/js/2.4cef73ab.chunk.js.map": "/Athulyasworld/static/js/2.4cef73ab.chunk.js.map",
+    "main.css": "/Athulyasworld/static/css/main.17462957.chunk.css",
+    "main.js": "/Athulyasworld/static/js/main.8d22452b.chunk.js",
+    "main.js.map": "/Athulyasworld/static/js/main.8d22452b.chunk.js.map",
+    "runtime-main.js": "/Athulyasworld/static/js/runtime-main.7098ebf4.js",
+    "runtime-main.js.map": "/Athulyasworld/static/js/runtime-main.7098ebf4.js.map",
+    "static/css/2.23e2c9ca.chunk.css": "/Athulyasworld/static/css/2.23e2c9ca.chunk.css",
+    "static/js/2.27ad66a2.chunk.js": "/Athulyasworld/static/js/2.27ad66a2.chunk.js",
+    "static/js/2.27ad66a2.chunk.js.map": "/Athulyasworld/static/js/2.27ad66a2.chunk.js.map",
     "index.html": "/Athulyasworld/index.html",
-    "static/css/main.9f280494.chunk.css.map": "/Athulyasworld/static/css/main.9f280494.chunk.css.map",
-    "static/js/2.4cef73ab.chunk.js.LICENSE.txt": "/Athulyasworld/static/js/2.4cef73ab.chunk.js.LICENSE.txt",
+    "static/css/2.23e2c9ca.chunk.css.map": "/Athulyasworld/static/css/2.23e2c9ca.chunk.css.map",
+    "static/css/main.17462957.chunk.css.map": "/Athulyasworld/static/css/main.17462957.chunk.css.map",
+    "static/js/2.27ad66a2.chunk.js.LICENSE.txt": "/Athulyasworld/static/js/2.27ad66a2.chunk.js.LICENSE.txt",
     "static/media/Firstrobo.5747b7e5.jpg": "/Athulyasworld/static/media/Firstrobo.5747b7e5.jpg",
     "static/media/PicMao.31264933.jpg": "/Athulyasworld/static/media/PicMao.31264933.jpg",
-    "static/media/Resume_2022.839fd3d5.pdf": "/Athulyasworld/static/media/Resume_2022.839fd3d5.pdf",
+    "static/media/Resume.afa1f799.pdf": "/Athulyasworld/static/media/Resume.afa1f799.pdf",
+    "static/media/ai.276dff5d.jpg": "/Athulyasworld/static/media/ai.276dff5d.jpg",
     "static/media/bgmain4.jpg": "/Athulyasworld/static/media/bgmain4.b4875f22.jpg",
     "static/media/bioinformatics.d03f36c3.jpg": "/Athulyasworld/static/media/bioinformatics.d03f36c3.jpg",
+    "static/media/cisco.aa41e252.jpg": "/Athulyasworld/static/media/cisco.aa41e252.jpg",
     "static/media/cspic.0c88c3ed.jpg": "/Athulyasworld/static/media/cspic.0c88c3ed.jpg",
+    "static/media/drone.0ba4493d.jpg": "/Athulyasworld/static/media/drone.0ba4493d.jpg",
     "static/media/girlbyes.4bbd7124.jpg": "/Athulyasworld/static/media/girlbyes.4bbd7124.jpg",
-    "static/media/job1.008895d5.png": "/Athulyasworld/static/media/job1.008895d5.png"
+    "static/media/job1.008895d5.png": "/Athulyasworld/static/media/job1.008895d5.png",
+    "static/media/jpmc.1f997ccf.jpg": "/Athulyasworld/static/media/jpmc.1f997ccf.jpg",
+    "static/media/research.f217394f.png": "/Athulyasworld/static/media/research.f217394f.png",
+    "static/media/tapcentric.d306e42c.jpg": "/Athulyasworld/static/media/tapcentric.d306e42c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2cddc46b.js",
-    "static/js/2.4cef73ab.chunk.js",
-    "static/css/main.9f280494.chunk.css",
-    "static/js/main.8a69110a.chunk.js"
+    "static/js/runtime-main.7098ebf4.js",
+    "static/css/2.23e2c9ca.chunk.css",
+    "static/js/2.27ad66a2.chunk.js",
+    "static/css/main.17462957.chunk.css",
+    "static/js/main.8d22452b.chunk.js"
   ]
 }
