@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Athulyasworld/static/css/main.17462957.chunk.css",
-    "main.js": "/Athulyasworld/static/js/main.8d22452b.chunk.js",
-    "main.js.map": "/Athulyasworld/static/js/main.8d22452b.chunk.js.map",
+    "main.js": "/Athulyasworld/static/js/main.6cb53b3d.chunk.js",
+    "main.js.map": "/Athulyasworld/static/js/main.6cb53b3d.chunk.js.map",
     "runtime-main.js": "/Athulyasworld/static/js/runtime-main.7098ebf4.js",
     "runtime-main.js.map": "/Athulyasworld/static/js/runtime-main.7098ebf4.js.map",
     "static/css/2.23e2c9ca.chunk.css": "/Athulyasworld/static/css/2.23e2c9ca.chunk.css",
@@ -32,6 +32,6 @@
     "static/css/2.23e2c9ca.chunk.css",
     "static/js/2.27ad66a2.chunk.js",
     "static/css/main.17462957.chunk.css",
-    "static/js/main.8d22452b.chunk.js"
+    "static/js/main.6cb53b3d.chunk.js"
   ]
 }
