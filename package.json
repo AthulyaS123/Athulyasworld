@@ -1,5 +1,5 @@
 {
-  "name": "Material-Kit-React",
+  "name": "material-kit-react",
   "version": "1.10.0",
   "description": "Athulya Saravanakumar",
   "homepage": "https://athulyas123.github.io/Athulyasworld",
@@ -13,7 +13,6 @@
     "emailjs": "^3.6.0",
     "emailjs-com": "^3.2.0",
     "moment": "2.29.1",
-    "node-sass": "6.0.0",
     "nouislider": "15.1.0",
     "prop-types": "15.7.2",
     "react": "^17.0.2",
@@ -23,6 +22,7 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
     "react-slick": "0.28.1",
+    "sass": "^1.56.0",
     "video-react": "^0.14.1"
   },
   "devDependencies": {
@@ -44,7 +44,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "react-scripts start ",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
@@ -64,5 +64,14 @@
       "not op_mini all"
     ],
     "development": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AthulyaS123/Athulyasworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AthulyaS123/Athulyasworld/issues"
   }
 }

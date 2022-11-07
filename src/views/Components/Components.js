@@ -19,8 +19,9 @@ import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import SectionBasics from "./Sections/SectionBasics.js";
-import Resume from "assets/PDF/Resume_2022.pdf";
+import Resume from "assets/PDF/Resume.pdf";
 import Favorite from "@material-ui/icons/Favorite";
+import 'animate.css';
 
 
 import styles from "assets/jss/material-kit-react/views/components.js";
@@ -52,18 +53,19 @@ export default function Components(props) {
         <div className={classes.brand}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={8}>
-              <h3>
+              <h3 className="animate__animated animate__lightSpeedInLeft">
                 Innovate, Lead, Inspire <Favorite style={{fill: "darkblue"}} className={classes.icon} />
-                 </h3>
+                 </h3 >
                  </GridItem>
                  <GridItem xs={12} sm={12} md={8}>
-                <h4>
-                  I am a junior at the Math and Science Academy in Dulles High School. I am a passionate computer scientist, researching in the feild of: 
+                <h4 className="animate__animated animate__lightSpeedInRight">
+                  I am a senior at the Math and Science Academy in Dulles High School. I am a passionate computer scientist, researching in the feild of 
                   Artifical Intelligence, Autonomous Robotics, and Bioinformatics.
 
-                I have lead many programming teams and am a compassionate,
-                hardworking, team platyer. I  spread the knowledge of STEM to others and encourge women to join through outreach to my community.</h4>
+                I have lead many programming teams and showcase compassion,
+                hardwork, leadership. I  spread the knowledge of STEM to others and encourge women to join through outreach to my community.</h4>
                          <Button
+                         className="animate__animated animate__rollIn"
                             color="rose"
                             size="lg"
                             href = {Resume}

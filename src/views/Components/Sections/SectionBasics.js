@@ -25,7 +25,7 @@ import classNames from "classnames";
 import CustomInput from "components/CustomInput/CustomInput.js";
 import Button from "components/CustomButtons/Button.js"
 import Work from "@material-ui/icons/Work";
-import PersonOutline from "@material-ui/icons/PersonOutline";
+// import PersonOutline from "@material-ui/icons/PersonOutline";
 import Favorite from "@material-ui/icons/Favorite";
 // import Sparkle from "@material-ui/icons/Star"
 // import Parallax from "components/Parallax/Parallax.js";
@@ -43,13 +43,23 @@ import Warning from "components/Typography/Warning";
 import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 import JobImage from "assets/img/experiencesImg/job1.png"
+import JPMC from "assets/img/experiencesImg/jpmc.jpg"
+import Cisco from "assets/img/experiencesImg/cisco.jpg"
+import TAPCentric from "assets/img/experiencesImg/tapcentric.jpg"
 import DullesRobo from "assets/img/experiencesImg/Firstrobo.jpg"
 import CFM from "assets/img/experiencesImg/bioinformatics.jpg"
 import MAO from "assets/img/experiencesImg/PicMao.jpg"
 import GirlBytes from "assets/img/experiencesImg/girlbyes.jpg"
 import CSpic from "assets/img/experiencesImg/cspic.jpg"
+import AI from "assets/img/experiencesImg/ai.jpg"
+import Research from "assets/img/experiencesImg/research.png"
+import Drone from "assets/img/experiencesImg/drone.jpg"
+
+
 
 import CardHeader from "components/Card/CardHeader.js";
+import 'animate.css';
+
 // import Primary from "components/Typography/Primary";
 
 
@@ -80,27 +90,97 @@ export default function SectionBasics() {
   }
   
   return (
+    
     <div className={classes.sections}>
             <div className={classes.title}>
             <div className={classes.container}>
             <div className={classNames(classes.main, classes.mainRaised)}>
           <div >
+          <GridContainer  justify="center" >
+          <GridItem justify="right" xs={12} sm={12} md={4}>
+          <div id="awards"><h6 className="animate__animated animate__lightSpeedInRight animate__slower	animate__infinite"><small>
+              <img
+                style={{height: "10rem", width: "100%"}}
+                className={Drone}
+                src={Drone}
+              />
+                </small></h6></div>
+                </GridItem>
+                </GridContainer>
           <div className={classes.container}> 
-              <div id="awards"><h6><small>.</small></h6></div>
                 <NavPills 
                   alignCenter
                   color="primary"
                   tabs={[
                     {
                       tabButton: "Experience",
-                      tabIcon: Person,
+                      tabIcon: Work,
                       tabContent: (
-                        <GridContainer  justify="center">
+                        <GridContainer  justify="center" >
                           <GridItem justify="left" xs={12} sm={12} md={4}>
                           <br />
                           <br />
                           <Card style={{width: "20rem"}}>
-                          <CardHeader className={classes.cardTitle} color="warning"><Work style={{fill: "blue"}}/>  Work Experience</CardHeader>
+                          {/* <CardHeader className={classes.cardTitle} color="warning"><Work style={{fill: "blue"}}/>  Work Experience</CardHeader> */}
+                          <img
+                          style={{height: "100%", width: "100%", display: "block"}}
+                          className={JPMC}
+                          src={JPMC}
+                          />
+                          <CardBody>
+                          <h3 className={classes.cardTitle}>JP Morgan Chase Co.</h3>
+                          <h4 className={classes.cardSubtitle} >Archietct and Full Stack Intern</h4>
+                          <p>Design solution/architecture for application for JPMC Admins to retrieve data from Cassandra. Skills Used: Cassandra Database, React, Spring, Material UI, Java, Javascript, CSS</p>
+                          </CardBody>
+                          </Card>
+                        </GridItem>
+
+                        <GridItem justify="left" xs={12} sm={12} md={4}>
+                          <br />
+                          <br />
+                          <Card style={{width: "20rem"}}>
+                          {/* <CardHeader className={classes.cardTitle} color="warning"><Work style={{fill: "blue"}}/>  Work Experience</CardHeader> */}
+                          <img
+                          style={{height: "100%", width: "100%", display: "block"}}
+                          className={Cisco}
+                          src={Cisco}
+                          />
+                          <CardBody>
+                          <h3 className={classes.cardTitle}>Cisco Systems Inc.</h3>
+                          <h4 className={classes.cardSubtitle} >Team Lead IoT Extern</h4>
+                          <p>Lead Capstone Project on railroad safety and vibrational analysis
+Recognized by Executives for leadership and named “Extern of the Week”. Skills Used: IoT, Networking, AI/ML, Advanced Physics, JavaScript, React, Material UI
+</p>
+                          </CardBody>
+                          </Card>
+                        </GridItem> 
+
+                          <GridItem justify="left" xs={12} sm={12} md={4}>
+                          <br />
+                          <br />
+                          <Card style={{width: "20rem"}}>
+                          {/* <CardHeader className={classes.cardTitle} color="warning"><Work style={{fill: "blue"}}/>  Work Experience</CardHeader> */}
+                          <img
+                          style={{height: "100%", width: "100%", display: "block"}}
+                          className={TAPCentric}
+                          src={TAPCentric}
+                          />
+                          <CardBody>
+                          <h3 className={classes.cardTitle}>TAPCentric</h3>
+                          <h4 className={classes.cardSubtitle} >Java Developer</h4>
+                          <p>Redesign digital media for inside and outside home applications. 
+Own backend structure sector of company to design and implement solution for data storgage, useage/manipulation.
+Skills Used: Java, SQL, Data structures, IOS and Android Development 
+</p>
+                          </CardBody>
+                          </Card>
+                        </GridItem>
+
+                        <GridItem justify="left" xs={12} sm={12} md={4}>
+                          <br />
+                          <br />
+                          <Card style={{width: "20rem"}}>
+                          {/* <CardHeader className={classes.cardTitle} color="warning"><Work style={{fill: "blue"}}/>  Work Experience</CardHeader> */}
                           <img
                           style={{height: "100%", width: "100%", display: "block"}}
                           className={JobImage}
@@ -108,107 +188,160 @@ export default function SectionBasics() {
                           />
                           <CardBody>
                           <h3 className={classes.cardTitle}>Codeverse</h3>
-                          <h4 className={classes.cardSubtitle} > Rank 2 Instructor 05/2021 - Present</h4>
-                          <p>Programmed/debugged a game for the seasonal Codeverse Show Case event. Resolved software and hardware issues for client and manager side. Administered daily/weekly programming class for ages 5-15. Initiated new methods and content of teaching curriculum. Skills used: JavaScript, Object Oriented Programming, Game Design</p>
+                          <h4 className={classes.cardSubtitle} > Rank 2 Instructor</h4>
+                          <p>Programmed/debugged a game for the seasonal Codeverse Show Case event. Resolved software and hardware issues for client and manager side. Administered programming class for ages 5-15. Initiated new methods and content of teaching curriculum. Skills used: JavaScript, Object Oriented Programming, Game Design</p>
                           </CardBody>
                           </Card>
                         </GridItem>
 
-                          <GridItem justify="center" xs={12} sm={12} md={4}>
+                        <GridItem justify="left" xs={12} sm={12} md={4}>
                           <br />
                           <br />
                           <Card style={{width: "20rem"}}>
-                          <CardHeader className={classes.cardTitle} color="info"> <PersonOutline style={{fill: "blue"}} /> Leadership</CardHeader>
+                          {/* <CardHeader className={classes.cardTitle} color="warning"><Work style={{fill: "blue"}}/>  Work Experience</CardHeader> */}
                           <img
                           style={{height: "100%", width: "100%", display: "block"}}
-                          className={CFM}
-                          src={CFM}
+                          className={Research}
+                          src={Research}
                           />
                           <CardBody>
-                          <h3 className={classes.cardTitle}>National Coding For Medicine Club</h3>
-                          <h4 className={classes.cardSubtitle} >Founder and President 2020-Present</h4>
-                          <p>Runs and manages Coding For Medicine Club where the members work with bioinformatics. Leads the research project, planning and guiding the members. Creates cirriculum and materials for meetings and workshops. Delgates tasks to others in the leadership team such as recrutiment and communication. </p>
+                          <h3 className={classes.cardTitle}>Pre College Research Institute</h3>
+                          <h4 className={classes.cardSubtitle} > Junior Researcher</h4>
+                          <p>Performed literature review on machine learning vibration analysis to improve environment
+Programmed K Nearest Neighbor AI models to categorize frequencies from vibrations
+Skills Used: Integrated Physics, Linear Algebra, Multivariable Calculus, Latex, AI
+</p>
                           </CardBody>
                           </Card>
                         </GridItem>
 
-                        <GridItem justify="center" xs={12} sm={12} md={4}>
-                        <br />
-                        <br />
-                          <Card style={{width: "20rem"}}>
-                          <CardHeader className={classes.cardTitle} color="info"> <PersonOutline style={{fill: "blue"}} /> Leadership</CardHeader>
-                          <img
-                          style={{height: "100%", width: "100%", display: "block"}}
-                          className={DullesRobo}
-                          src={DullesRobo}
-                          />
-                          <CardBody>
-                          <h3 className={classes.cardTitle}>Fort Bend Robotics</h3>
-                          <h4 className={classes.cardSubtitle} >Vice President/Outreach Lead 2019 - Present</h4>
-                          <p>Helped run competitions as League Host for over 15 teams in Houston area. Progammed the robot and won multiple awards, contributed to State Championship. Managed the club and members by teaching programming and presentation skills. Hosted events and outreach to community to spread STEM. Helped spread awarness and bring more women into STEM.</p>
-                          </CardBody>
-                          </Card>
-                        </GridItem>
-
-                        <GridItem justify="center" xs={12} sm={12} md={4}>
-                          <Card style={{width: "20rem"}}>
-                          <CardHeader className={classes.cardTitle} color="info"> <PersonOutline style={{fill: "blue"}} /> Leadership</CardHeader>
-                          <img
-                          style={{height: "100%", width: "100%", display: "block"}}
-                          className={MAO}
-                          src={MAO}
-                          />
-                          <CardBody>
-                          <h3 className={classes.cardTitle}>Mu Alpha Theta Honor Society</h3>
-                          <h4 className={classes.cardSubtitle} >Volunteer Manager 2019 - Present</h4>
-                          <p>Helped run Math and Science Night, inviting 30+ STEM related companies for 150+ elementary students. Volunteer at Colony Meadow Elementary to create cirriculum and teach kids contest math. Managed and ran the social media accounts for advertisements/recruitment. Managed point system on spread sheet and forms of communications via email, Remind App, social media, etc.</p>
-                          <ReactPlayer
-                            url="https://youtu.be/TOjKqbCF4gQ"
-                            width="250px"
-                            height="100%"
-                            />
-                          </CardBody>
-                          </Card>
+                        <GridItem justify="left" xs={12} sm={12} md={4}>
                           <br />
-                        </GridItem>
-
-                        <GridItem justify="center" xs={12} sm={12} md={4}>
+                          <br />
                           <Card style={{width: "20rem"}}>
-                          <CardHeader className={classes.cardTitle} color="info"> <PersonOutline style={{fill: "blue"}} /> Leadership</CardHeader>
+                          {/* <CardHeader className={classes.cardTitle} color="warning"><Work style={{fill: "blue"}}/>  Work Experience</CardHeader> */}
                           <img
                           style={{height: "100%", width: "100%", display: "block"}}
-                          className={CSpic}
-                          src={CSpic}
+                          className={AI}
+                          src={AI}
                           />
                           <CardBody>
-                          <h3 className={classes.cardTitle}>Dulles Computer Science </h3>
-                          <h4 className={classes.cardSubtitle} >Novice UIL Coach 2019 - Present</h4>
-                          <p>Create UIL Computer Science cirriculum to teach members and prepare them for various contest. Create practice problems for members to work on. Coded the club's website. Attened UIL competitions at state level. Helped manage point system.</p>
+                          <h3 className={classes.cardTitle}>InspiritAI</h3>
+                          <h4 className={classes.cardSubtitle} >AI Ambassador</h4>
+                          <p>Connect with students around the world to teach and showcase Artificial Intelligence projects
+Meet with start-up A.I companies, Google, Microsoft to explore innovations and career paths
+Write articles about the applications of AI and published by technology companies 
+</p>
                           </CardBody>
                           </Card>
-                          <br />
                         </GridItem>
-
-                        <GridItem justify="center" xs={12} sm={12} md={4}>
-                          <Card style={{width: "20rem"}}>
-                          <CardHeader className={classes.cardTitle} color="success"> <Favorite style={{fill: "blue"}}/> Volunteering</CardHeader>
-                          <img
-                          style={{height: "100%", width: "100%", display: "block"}}
-                          className={GirlBytes}
-                          src={GirlBytes}
-                          />
-                          <CardBody>
-                          <h3 className={classes.cardTitle}>Dulles Girl Bytes </h3>
-                          <h4 className={classes.cardSubtitle} > Volunteer 2021 - Present</h4>
-                          <p>Created cirriculum and taught at programming workshops like HTML, Java, and web development meant to inspire women to join STEM. Volunteer at Dulles Middle School, training Technovation teams by teaching them web development and strategies. Help spread awarness of the lack of females in STEM through social media. </p>
-                          </CardBody>
-                          </Card>
-                          <br />
-                        </GridItem>
+                      
 
 
                           
                         </GridContainer>
+                      ),
+                    },
+
+                    {
+                      tabButton: "Leadership",
+                      tabIcon: Person,
+                      tabContent: (
+                        <GridContainer  justify="center">
+                   <GridItem justify="center" xs={12} sm={12} md={4}>
+                    <br />
+                    <br />
+                    <Card style={{width: "20rem"}}>
+                    {/* <CardHeader className={classes.cardTitle} color="info"> <PersonOutline style={{fill: "blue"}} /> Leadership</CardHeader> */}
+                    <img
+                    style={{height: "100%", width: "100%", display: "block"}}
+                    className={CFM}
+                    src={CFM}
+                    />
+                    <CardBody>
+                    <h3 className={classes.cardTitle}>International Coding For Medicine Club</h3>
+                    <h4 className={classes.cardSubtitle} >Founder and President 2020-Present</h4>
+                    <p>Runs and manages Coding For Medicine Club where the members work with bioinformatics. Leads the research project, planning and guiding the members. Creates cirriculum and materials for meetings and workshops. Delgates tasks to others in the leadership team such as recrutiment and communication. </p>
+                    </CardBody>
+                    </Card>
+                  </GridItem>
+
+                  <GridItem justify="center" xs={12} sm={12} md={4}>
+                  <br />
+                  <br />
+                    <Card style={{width: "20rem"}}>
+                    {/* <CardHeader className={classes.cardTitle} color="info"> <PersonOutline style={{fill: "blue"}} /> Leadership</CardHeader> */}
+                    <img
+                    style={{height: "100%", width: "100%", display: "block"}}
+                    className={DullesRobo}
+                    src={DullesRobo}
+                    />
+                    <CardBody>
+                    <h3 className={classes.cardTitle}>FIRST Robotics</h3>
+                    <h4 className={classes.cardSubtitle} >Vice President/Outreach Lead FortBendISD 2019 - Present</h4>
+                    <p>Helped run competitions as League Host for over 15 teams in Houston area. Progammed the robot and won multiple awards, contributed to State Championship. Managed the club and members by teaching programming and presentation skills. Hosted events and outreach to community to spread STEM. Helped spread awarness and bring more women into STEM.</p>
+                    </CardBody>
+                    </Card>
+                  </GridItem>
+
+                  <GridItem justify="center" xs={12} sm={12} md={4}>
+                  <br />
+                  <br />
+                    <Card style={{width: "20rem"}}>
+                    {/* <CardHeader className={classes.cardTitle} color="info"> <PersonOutline style={{fill: "blue"}} /> Leadership</CardHeader> */}
+                    <img
+                    style={{height: "100%", width: "100%", display: "block"}}
+                    className={MAO}
+                    src={MAO}
+                    />
+                    <CardBody>
+                    <h3 className={classes.cardTitle}>Mu Alpha Theta Honor Society</h3>
+                    <h4 className={classes.cardSubtitle} >Secretary 2019 - Present</h4>
+                  <p>Hosted Math&Science Night for 30+ STEM related companies and 150+ students. Volunteer at CME to create cirriculum and teach kids contest-math. Managed the social media/point system.</p>
+                    <ReactPlayer
+                      url="https://youtu.be/TOjKqbCF4gQ"
+                      width="250px"
+                      height="100%"
+                      />
+                    </CardBody>
+                    </Card>
+                    <br />
+                  </GridItem>
+
+                  <GridItem justify="center" xs={12} sm={12} md={4}>
+                    <Card style={{width: "20rem"}}>
+                    {/* <CardHeader className={classes.cardTitle} color="info"> <PersonOutline style={{fill: "blue"}} /> Leadership</CardHeader> */}
+                    <img
+                    style={{height: "100%", width: "100%", display: "block"}}
+                    className={CSpic}
+                    src={CSpic}
+                    />
+                    <CardBody>
+                    <h3 className={classes.cardTitle}>Dulles Computer Science </h3>
+                    <h4 className={classes.cardSubtitle} >Vice President 2019 - Present</h4>
+                    <p>Create UIL Computer Science cirriculum to teach members and prepare them for various contest. Create practice problems for members to work on. Coded the club's website. Attened UIL competitions at state level. Helped manage point system.</p>
+                    </CardBody>
+                    </Card>
+                    <br />
+                  </GridItem>
+
+                  <GridItem justify="center" xs={12} sm={12} md={4}>
+                    <Card style={{width: "20rem"}}>
+                    {/* <CardHeader className={classes.cardTitle} color="success"> <Favorite style={{fill: "blue"}}/> Volunteering</CardHeader> */}
+                    <img
+                    style={{height: "100%", width: "100%", display: "block"}}
+                    className={GirlBytes}
+                    src={GirlBytes}
+                    />
+                    <CardBody>
+                    <h3 className={classes.cardTitle}>Dulles Girl Bytes </h3>
+                    <h4 className={classes.cardSubtitle} > Volunteer 2021 - Present</h4>
+                    <p>Created cirriculum and taught at programming workshops like HTML, Java, and web development meant to inspire women to join STEM. Volunteer at Dulles Middle School, training Technovation teams by teaching them web development and strategies. Help spread awarness of the lack of females in STEM through social media. </p>
+                    </CardBody>
+                    </Card>
+                    <br />
+                  </GridItem>
+                      </GridContainer>
                       ),
                     },
 
@@ -652,4 +785,3 @@ export default function SectionBasics() {
 
   );
 }
-
