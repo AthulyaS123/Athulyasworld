@@ -354,13 +354,42 @@ Write articles about the applications of AI and published by technology companie
                         <h2 > <Robo style={{fill: "blue"}} /> <CS style={{fill: "blue"}} /> Robotics, AI, Bioinformatics, Web Dev</h2>
                         </GridItem>      
                         <GridContainer  justify="center">
+
+                        <GridItem justify="center" xs={12} sm={12} md={4}>
+                        <Card style={{width: "22rem"}}>
+                        <CardBody>
+                        <h3 className={classes.cardTitle}>Machine Learning App </h3>
+                        <p>Malaria can be defeated with this app. In rural or developing areas, healthcare workers can diagnose malaria with this tool that uses computer vision to detect malaria parasites in blood cells. Skills Used: Scikit-Learn, Machine Learning, Python, OpenCV, Object Detection</p>
+                        <Button
+                        color="rose"
+                        href="https://athulyas123-malariaapp-streamlit-apptest-rhgrhy.streamlit.app/"
+                        target = "_blank"
+                        > 
+                          Launch App
+                        </Button>
+                        </CardBody>
+                        </Card>
+                      </GridItem>     
+
+                      <GridItem justify="center" xs={12} sm={12} md={4}>
+                        <Card style={{width: "22rem"}}>
+                        <CardBody>
+                        <h3 className={classes.cardTitle}>Reinforcement Learning </h3>
+                        <p>Autonomous Vehicle Simulation. Skills used: Deep Q-learning and Loss, Convolutional Neural Network, Epsilon Greedy Policy</p>
+                        <ReactPlayer
+                          url="https://youtu.be/l2DG-Y3Q69Y"
+                          playing={true}
+                          loop={true}
+                          width="300px"
+                          height="100%"                          />
+                        </CardBody>
+                        </Card>
+                      </GridItem>                  
                           
                         <GridItem justify="center" xs={12} sm={12} md={4}>
                         <Card style={{width: "22rem"}}>
                         <CardBody>
-                        <CardHeader className={classes.cardTitle} color="primary"> </CardHeader>
                         <h3 className={classes.cardTitle}>FTC Autonomous Robot </h3>
-                        <h4 className={classes.cardSubtitle} >05/2021 </h4>
                         <p>Coded autonomus for FIRST Tech Challenge: Ultimate Goal using Trajectory Motion/Object Detection. Skills used: Java, EasyOpenCV, PID, RoadRunner, Git</p>
                         <ReactPlayer
                           url="https://youtu.be/9pZk6KUO7dI"
@@ -375,9 +404,7 @@ Write articles about the applications of AI and published by technology companie
                       <GridItem justify="center" xs={12} sm={12} md={4}>
                         <Card style={{width: "22rem"}}>
                         <CardBody>
-                        <CardHeader className={classes.cardTitle} color="primary"> </CardHeader>
                         <h3 className={classes.cardTitle}>Robot Simulation: PID </h3>
-                        <h4 className={classes.cardSubtitle} >07/2021 </h4>
                         <p>Coded autonomus robot simulation on Robot Operating System that follows a path using a control system: PID. Skills Used: ROS, Gazebo, PID, C, Git</p>
                         <ReactPlayer
                           url="https://youtu.be/ZTdhinERBz0"
@@ -393,9 +420,7 @@ Write articles about the applications of AI and published by technology companie
                       <GridItem justify="center" xs={12} sm={12} md={4}>
                         <Card style={{width: "22rem"}}>
                         <CardBody>
-                        <CardHeader className={classes.cardTitle} color="primary"> </CardHeader>
                         <h3 className={classes.cardTitle}>Real-Time Object Detection</h3>
-                        <h4 className={classes.cardSubtitle} >12/2021</h4>
                         <p>Coded real-time object detection on video using AI framework: YOLO. Skills Used: Python, AI/ML, Tensorflow, OpenCV</p>
                         <ReactPlayer
                           url="https://youtu.be/jvuX2wJNvXg"
@@ -411,9 +436,7 @@ Write articles about the applications of AI and published by technology companie
                         <GridItem justify="left" xs={12} sm={12} md={4}>
                         <Card style={{width: "20rem"}}>
                         <CardBody>
-                        <CardHeader className={classes.cardTitle} color="primary"> </CardHeader>
                         <h3 className={classes.cardTitle}>CFM Scholarly Research Project</h3>
-                        <h4 className={classes.cardSubtitle} >2021 - Present </h4>
                         <p>Research on Balanophora (Hemiparasitic Plants). Skills Used: Biopython, MUSCLE, NCBI Blast, and Linux</p>
                         <Button
                         color="rose"
@@ -424,23 +447,10 @@ Write articles about the applications of AI and published by technology companie
                         </Card>
                       </GridItem>
 
-                        <GridItem justify="center" xs={12} sm={12} md={4}>
-                        <Card style={{width: "20rem"}}>
-                        <CardBody>
-                        <CardHeader className={classes.cardTitle} color="primary"></CardHeader>
-                        <h3 className={classes.cardTitle}>Athulya Saravanakumar Website</h3>
-                        <h4 className={classes.cardSubtitle} >10/2021</h4>
-                        <p>Coded a website portfolio (this website!) for myself for clients and the industry too see. Skills Used: Java Script, Material UI, Git</p>
-                        </CardBody>
-                        </Card>
-                      </GridItem>
-
                       <GridItem justify="center" xs={12} sm={12} md={4}>
                         <Card style={{width: "20rem"}}>
                         <CardBody>
-                        <CardHeader className={classes.cardTitle} color="primary"></CardHeader>
                         <h3 className={classes.cardTitle}>Dulles Computer Science Website</h3>
-                        <h4 className={classes.cardSubtitle} >2021</h4>
                         <p>Coded a website for a school organization from scratch. Skills Used: JavaScript</p>
                         <Button
                         color="rose"
@@ -449,6 +459,16 @@ Write articles about the applications of AI and published by technology companie
                         > 
                           Check it Out
                         </Button>
+                        </CardBody>
+                        </Card>
+                      </GridItem>
+
+                      
+                      <GridItem justify="center" xs={12} sm={12} md={4}>
+                        <Card style={{width: "20rem"}}>
+                        <CardBody>
+                        <h3 className={classes.cardTitle}>Athulya Saravanakumar Website</h3>
+                        <p>Coded a website portfolio (this website!) for myself for clients and the industry too see. Skills Used: Java Script, Material UI, Git</p>
                         </CardBody>
                         </Card>
                       </GridItem>
